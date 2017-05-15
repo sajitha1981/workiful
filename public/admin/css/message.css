@@ -1,0 +1,510 @@
+
+/* LM Custom Responsive Table */
+
+.table-inbox-wrap {
+    margin:0 -15px;
+}
+.mail-checkbox {
+    margin-right:10px;
+}
+.table-inbox {
+    margin:0;
+}
+.table-inbox tr td {
+    padding:12px !important;
+}
+.table-inbox tr td:first-child {
+    width:5%;
+}
+.table-inbox tr td:first-child .icheckbox_minimal {
+    margin-left:15px;
+}
+.table-inbox tr td:hover {
+    cursor:pointer;
+}
+.table-inbox tr td .fa-star.inbox-started,.table-inbox tr td .fa-star:hover {
+    color:#ffcc33;
+}
+.table-inbox tr td .fa-star {
+    color:#d5d5d5;
+}
+.table-inbox tr.unread td {
+    font-weight:600;
+    background:#f5fbfb;
+}
+
+.table-inbox tr.unread a {
+    color: #32323a;
+}
+.table-inbox tr a {
+    color: #767676;
+}
+
+ul.inbox-pagination {
+    float:right;
+}
+ul.inbox-pagination li {
+    float:left;
+}
+
+.pagination li a {
+    color: #32323a;
+}
+.mail-option {
+    display:inline-block;
+    margin-bottom:10px;
+    width:100%;
+}
+.mail-option .chk-all {
+    float:left;
+}
+.mail-option .chk-all,.mail-option .btn-group {
+    margin-right:5px;
+}
+.mail-option .chk-all,.mail-option .btn-group a.btn {
+    border:1px solid #ccc;
+    padding:5px 10px;
+    display:inline-block;
+    background:#fff;
+    color:#333;
+    border-radius:3px !important;
+    -webkit-border-radius:3px !important;
+}
+.inbox-pagination a.np-btn {
+    border:1px solid #ccc;
+    padding:5px 15px;
+    display:inline-block;
+    background:#fff;
+    color:#444;
+    border-radius:3px !important;
+    -webkit-border-radius:3px !important;
+}
+.mail-option .chk-all input[type=checkbox] {
+    margin-top:0;
+}
+.mail-option .btn-group a.all {
+    padding:0;
+    border:none;
+}
+.inbox-pagination a.np-btn {
+    margin-left:5px;
+}
+.inbox-pagination li span {
+    display:inline-block;
+    margin-top:7px;
+    margin-right:5px;
+}
+.fileinput-button {
+    border:1px solid #e6e6e6;
+    background:#eeeeee;
+}
+.inbox-body .modal .modal-body input,.inbox-body .modal .modal-body textarea {
+    border:1px solid #e6e6e6;
+    box-shadow:none;
+}
+
+ul.inbox-pagination {
+    float: right;
+}
+
+ul, ol {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+ul {list-style: none;}
+  
+
+.wht-bg {
+    background:#fff;
+}
+
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+
+
+
+
+
+
+/*new added
+table {
+  max-width: 100%;
+  background-color: transparent;
+}
+th {
+  text-align: left;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.table .table {
+  background-color: #fff;
+}
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+.table-bordered {
+  border: 1px solid #ddd;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: #f4fefe;
+}
+table col[class*="col-"] {
+  position: static;
+  display: table-column;
+  float: none;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  display: table-cell;
+  float: none;
+}
+.table > thead > tr > td.active,
+.table > tbody > tr > td.active,
+.table > tfoot > tr > td.active,
+.table > thead > tr > th.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > tbody > tr.active > td,
+.table > tfoot > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr.active > th,
+.table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+.table > thead > tr > td.success,
+.table > tbody > tr > td.success,
+.table > tfoot > tr > td.success,
+.table > thead > tr > th.success,
+.table > tbody > tr > th.success,
+.table > tfoot > tr > th.success,
+.table > thead > tr.success > td,
+.table > tbody > tr.success > td,
+.table > tfoot > tr.success > td,
+.table > thead > tr.success > th,
+.table > tbody > tr.success > th,
+.table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover,
+.table-hover > tbody > tr.success:hover > td,
+.table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+.table > thead > tr > td.info,
+.table > tbody > tr > td.info,
+.table > tfoot > tr > td.info,
+.table > thead > tr > th.info,
+.table > tbody > tr > th.info,
+.table > tfoot > tr > th.info,
+.table > thead > tr.info > td,
+.table > tbody > tr.info > td,
+.table > tfoot > tr.info > td,
+.table > thead > tr.info > th,
+.table > tbody > tr.info > th,
+.table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover,
+.table-hover > tbody > tr.info:hover > td,
+.table-hover > tbody > tr.info:hover > th {
+  background-color: #c4e3f3;
+}
+.table > thead > tr > td.warning,
+.table > tbody > tr > td.warning,
+.table > tfoot > tr > td.warning,
+.table > thead > tr > th.warning,
+.table > tbody > tr > th.warning,
+.table > tfoot > tr > th.warning,
+.table > thead > tr.warning > td,
+.table > tbody > tr.warning > td,
+.table > tfoot > tr.warning > td,
+.table > thead > tr.warning > th,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr.warning > th {
+  background-color: #f5fbfb;
+}
+.table-hover > tbody > tr > td.warning:hover,
+.table-hover > tbody > tr > th.warning:hover,
+.table-hover > tbody > tr.warning:hover > td,
+.table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+.table > thead > tr > td.danger,
+.table > tbody > tr > td.danger,
+.table > tfoot > tr > td.danger,
+.table > thead > tr > th.danger,
+.table > tbody > tr > th.danger,
+.table > tfoot > tr > th.danger,
+.table > thead > tr.danger > td,
+.table > tbody > tr.danger > td,
+.table > tfoot > tr.danger > td,
+.table > thead > tr.danger > th,
+.table > tbody > tr.danger > th,
+.table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover,
+.table-hover > tbody > tr.danger:hover > td,
+.table-hover > tbody > tr.danger:hover > th {
+  background-color: #ebcccc;
+}
+@media (max-width: 767px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  .table-responsive > .table-bordered {
+    border: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:first-child,
+  .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  .table-responsive > .table-bordered > thead > tr > td:first-child,
+  .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  .table-responsive > .table-bordered > thead > tr > th:last-child,
+  .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  .table-responsive > .table-bordered > thead > tr > td:last-child,
+  .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+end new added*/
+
+/*View message page style*/
+.img-circle {
+    border-radius: 50%;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0px none;
+        border-top-width: 0px;
+        border-right-width-value: 0px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 0px;
+        border-left-width-value: 0px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: none;
+        border-right-style-value: none;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: none;
+        border-left-style-value: none;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: -moz-use-text-color;
+        border-right-color-value: -moz-use-text-color;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: -moz-use-text-color;
+        border-left-color-value: -moz-use-text-color;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+}
+
+
+
+
+
+
+
+/*End view message page style*/
+
+
+/*Start View Invoice Page Styles*/
+/* Line 42 */
+blockquote
+{
+  border-left-width-value: 5px;
+  border-left-style-value: solid;
+  border-left-color-value: #cccccc;
+}
+
+/* Line 881 */
+/* Line 42 */
+blockquote
+{
+  border-left-width-value: 5px;
+  border-left-style-value: solid;
+  border-left-color-value: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Line 42 */
+.invoice-buttons
+{
+  text-align: right;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+.invoice-from-to .name
+{
+  margin-top: 15px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+
+
+.invoice-table tbody tr td:last-child
+{
+  text-align: right;
+}
+
+
+.invoice-footer .right-col{position:absolute;right:15px}@media screen and (max-width: 768px){.invoice-footer .right-col{position:relative;right:0}}@media screen and (max-width: 768px){.invoice-footer .right-col,.invoice-footer .left-col{width:100%;float:none;margin-left:0}}.invoice-total{padding-right:10px}@media screen and (max-width: 768px){.invoice-total{padding-right:25px}}.invoice-total .row>div{padding:0}.invoice-total .row>div:first-child p{padding-left:10px}.invoice-total p:last-child{border-top:1px solid #ccc;border-bottom:1px solid #ccc;font-weight:700;font-size:1.3em;padding-top:10px;padding-bottom:10px}.invoice-buttons{text-align:right;margin-top:50px}@media print{.top-bar,.left-content,.primary-content .heading,.main-header,.footer,.invoice-buttons,.right-sidebar,.del-style-switcher{display:none !important}.table-responsive{overflow-x:auto}.col-print-1,.col-print-2,.col-print-3,.col-print-4,.col-print-5,.col-print-6,.col-print-7,.col-print-8,.col-print-9,.col-print-10,.col-print-11{float:left}.col-print-1{width:8.33333%}.col-print-2{width:16.66667%}.col-print-3{width:25%}.col-print-4{width:33.33333%}.col-print-5{width:41.66667%}.col-print-6{width:50%}.col-print-7{width:58.33333%}.col-print-8{width:66.66667%}.col-print-9{width:75%}.col-print-10{width:83.33333%}.col-print-11{width:91.66667%}.col-print-12{width:100%}.col-print-offset-0{margin-left:0}.col-print-offset-1{margin-left:8.33333%}.col-print-offset-2{margin-left:16.66667%}.col-print-offset-3{margin-left:25%}.col-print-offset-4{margin-left:33.33333%}.col-print-offset-5{margin-left:41.66667%}.col-print-offset-6{margin-left:50%}.col-print-offset-7{margin-left:58.33333%}.col-print-offset-8{margin-left:66.66667%}.col-print-offset-9{margin-left:75%}.col-print-offset-10{margin-left:83.33333%}.col-print-offset-11{margin-left:91.66667%}.bottom .container .content-wrapper{border-left:none !important}.invoice-header img{width:auto}.invoice-header ul li{font-size:8pt}.invoice-from-to .name{font-size:12pt}.invoice-from-to .row>div{float:left}.invoice-notes{border-top:none;border-right:none;border-bottom:none}}
+
+.myinvoicecolor{background-color: #009898; color: white; border-bottom: 10px solid #006666;}
+
+
+/*End View Invoice Page Styles*/
+
+
+/* End LM Custom Responsive Table */
+
+

@@ -1,0 +1,10 @@
+laravel installation
+
+
+https://www.tutorialspoint.com/laravel/laravel_configuration.htm
+
+goto path C:/xampp/htdocs and create a folder as laravel, redirect to laravel using cmd prompt as cd c:\xampp\htdocs\laravel.
+then simply type this command to create a first project composer create-project laravel/laravel first-project --prefer-dist Replace first-project with your project name (it takes a few minutes to install)
+
+
+d:\xampp\htdocs\laravel\laravel> php artisan serve

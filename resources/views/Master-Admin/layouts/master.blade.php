@@ -10,19 +10,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="_token" content="{!! csrf_token() !!}"/>
     <!-- Bootstrap core CSS -->
-    <link href="{{ url('public/admin/css') }}/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url('admin/css') }}/bootstrap.min.css" rel="stylesheet">
     <!-- Font-Awesome -->
-    <link href="{{ url('public/admin/css') }}/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ url('admin/css') }}/font-awesome.min.css" rel="stylesheet">
     <!-- PurelyHrs Custome/Template CSS -->
-    <link href="{{ url('public/admin/css') }}/style.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="{{ url('public/admin/assets') }}/SweetAlert/lib/sweet-alert.css">
-	<link href="{{ url('public/admin/css') }}/magic-data.css" rel="stylesheet">
+    <link href="{{ url('admin/css') }}/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ url('admin/assets') }}/SweetAlert/lib/sweet-alert.css">
+	<link href="{{ url('admin/css') }}/magic-data.css" rel="stylesheet">
     <!-- Updates css goes here -->
     <!-- Favicons --> 
-    <link rel="shortcut icon" href="{{ url('public/admin/img') }}/icons/favicon.ico">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ url('public/admin/images') }}/icons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ url('public/admin/images') }}/icons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" href="{{ url('public/admin/images') }}/icons/apple-touch-icon.png">
+    <link rel="shortcut icon" href="{{ url('admin/img') }}/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ url('admin/images') }}/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ url('admin/images') }}/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="{{ url('admin/images') }}/icons/apple-touch-icon.png">
     <!-- Google Fonts --> 
     <!-- <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>     -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700,800,400,600' rel='stylesheet' type='text/css'> -->

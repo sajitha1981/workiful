@@ -11,20 +11,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
 
 		<!-- Bootstrap core CSS -->
-    	<link href="{{ url('public/admin/css') }}/bootstrap.min.css" rel="stylesheet">
+    	<link href="{{ url('admin/css') }}/bootstrap.min.css" rel="stylesheet">
     	<!-- Font-Awesome -->
-    	<link href="{{ url('public/admin/css') }}/font-awesome.min.css" rel="stylesheet">
+    	<link href="{{ url('admin/css') }}/font-awesome.min.css" rel="stylesheet">
     	<!-- Razeqeen Custome/Template CSS -->
-		  <link href="{{ url('public/admin/css') }}/style.css" rel="stylesheet">	
+		  <link href="{{ url('admin/css') }}/style.css" rel="stylesheet">	
 			
 	
 		<!-- Updates css goes here -->
 								
 		<!-- Favicons -->	
-		<link rel="shortcut icon" href="{{ url('public/admin/img') }}/icons/favicon.ico">
-		<link rel="apple-touch-icon" sizes="114x114" href="{{ url('public/admin/images') }}/icons/apple-touch-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="{{ url('public/admin/images') }}/icons/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" href="{{ url('public/admin/images') }}/icons/apple-touch-icon.png">
+		<link rel="shortcut icon" href="{{ url('admin/img') }}/icons/favicon.ico">
+		<link rel="apple-touch-icon" sizes="114x114" href="{{ url('admin/images') }}/icons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="{{ url('admin/images') }}/icons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" href="{{ url('admin/images') }}/icons/apple-touch-icon.png">
 			
 		<!-- Google Fonts -->	
 		<link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>    
@@ -58,7 +58,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#"><img src="{{ url('public/admin/images') }}/razeqeen-logo.png" alt="" title="Logo"></a>
+                  <a class="navbar-brand" href="#"><img src="{{ url('admin/images') }}/razeqeen-logo.png" alt="" title="Logo"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                   <div class="right-top pull-right">
@@ -83,7 +83,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#"><img src="{{ url('public/admin/images') }}/razeqeen-logo.png" alt="" title="Logo"></a>
+                  <a class="navbar-brand" href="#"><img src="{{ url('admin/images') }}/razeqeen-logo.png" alt="" title="Logo"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
@@ -119,7 +119,7 @@
                     <ul class="nav navbar-nav info-deatails">
                     <li class="dropdown info-drop pull-right">
                       <a href="#" class="dropdown-toggle thumnail" data-toggle="dropdown">
-                        <img src="{{ url('public/admin/images') }}/thumnail.png" alt="" title=""> 
+                        <img src="{{ url('admin/images') }}/thumnail.png" alt="" title=""> 
                         <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu" role="menu">

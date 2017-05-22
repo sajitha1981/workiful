@@ -118,7 +118,7 @@ class EducationController extends Controller {
     }
 	
 	
-	public function AddEditEducation (Request $request){
+	/*public function AddEditEducation (Request $request){
       
 		if (session('sesAdminID') == null ) {
 			return redirect($this->AdminURL.'/login');
@@ -154,7 +154,7 @@ class EducationController extends Controller {
 		}			
     }
 
-	
+	*/
 	
 	/*public function eduDelete(Request $request)
     {	

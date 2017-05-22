@@ -25,6 +25,9 @@
             </thead>
             <tbody>
 <div id="load" style="position: relative;">
+<div class="loading-div" style="display:none" id="loading-div" style="padding-left:30px;"><img src="{{ url('admin/images') }}/ajax-loader.gif" ></div>
+
+
 <?php $index = $stcnt; ?>
 			@if (count($eduList) > 0)
 				@foreach ($eduList as $val)

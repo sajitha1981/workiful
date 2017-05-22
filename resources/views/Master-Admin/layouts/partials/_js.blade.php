@@ -1,9 +1,9 @@
 <!-- JavaScript
       ================================================== -->
-    <script src="{{ url('public/admin/js') }}/jquery.min.js"></script>
-    <script src="{{ url('public/admin/js') }}/bootstrap.min.js"></script>
+    <script src="{{ url('admin/js') }}/jquery.min.js"></script>
+    <script src="{{ url('admin/js') }}/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="{{ url('public/admin/js') }}/ie10-viewport-bug-workaround.js"></script>
+    <script src="{{ url('admin/js') }}/ie10-viewport-bug-workaround.js"></script>
     <!-- Dropdowns
       ================================================== -->
     <script>

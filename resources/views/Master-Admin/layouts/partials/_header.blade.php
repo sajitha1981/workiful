@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="{{ url('public/admin/images') }}/razeqeen-logo.png" alt="" title="Logo"></a>
+                <a class="navbar-brand" href="#"><img src="{{ url('admin/images') }}/razeqeen-logo.png" alt="" title="Logo"></a>
               </div>
               <div class="navbar-collapse collapse">
                 <div class="right-top pull-right">
@@ -37,7 +37,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="{{ url('public/admin/images') }}/razeqeen-logo.png" alt="" title="Logo"></a>
+                <a class="navbar-brand" href="#"><img src="{{ url('admin/images') }}/razeqeen-logo.png" alt="" title="Logo"></a>
               </div>
               <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -96,7 +96,7 @@
                   <ul class="nav navbar-nav info-deatails">
                     <li class="dropdown info-drop pull-right">
                       <a href="#" class="dropdown-toggle thumnail" data-toggle="dropdown">
-                      <img src="{{ url('public/admin/images') }}/thumnail.png" alt="" title=""> 
+                      <img src="{{ url('admin/images') }}/thumnail.png" alt="" title=""> 
                       <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu" role="menu">

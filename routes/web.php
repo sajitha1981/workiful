@@ -126,4 +126,7 @@ Route::get('Master-Admin/list-coupons',
 Route::post('Master-Admin/list-coupons', 
   ['uses' => 'CouponController@index']);    
 
+Route::get('/', function () {
+    return view('welcome');
+});  
   
